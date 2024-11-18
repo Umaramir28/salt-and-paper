@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --main-color: rgb(19, 18, 18);
+        --font: 1rem;
+        --font-style: Poppins, sans-serif;
+      }
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        display: flex;
+        justify-content: space-around;
+        height: 92px;
+        background: var(--main-color);
+        align-items: center;
+      }
+      .left-con > img {
+        width: 165px;
+        height: 75px;
+      }
+      .right-con {
+      }
+      .right-con > a {
+        padding: 0 var(--font);
+        text-decoration: none;
+        color: white;
+        font-size: var(--font);
+        font-family: var(--font-style);
+      }
+      .btn {
+        height: 50px;
+        font-size: 1rem;
+        padding: 2px 2rem;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        font-family: var(--font-style);
+      }
+      .s-btn {
+        background-color: rgb(228, 10, 10);
+      }
+      main {
+        height: 100%;
+        width: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left-con"><img src="./assets/logo.webp" alt="" /></div>
+      <div class="right-con">
+        <a href="">Home</a><a href="">About Us</a><a href="">Publications</a>
+        <button class="btn f-btn">Get a franchise</button>
+        <button class="btn s-btn">Order online</button>
+      </div>
+    </header>
+    <main>
+      <div><img src="./assets/herobanner.webp" alt="heropic" /></div>
+      <div>
+        <div>
+          <h1></h1>
+          <h3></h3>
+          <p></p>
+        </div>
+        <div>
+          <div><img src="" alt="" /><button></button></div>
+          <div><img src="" alt="" /><button></button></div>
+          <div><img src="" alt="" /><button></button></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
